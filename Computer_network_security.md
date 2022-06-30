@@ -143,3 +143,19 @@ It is a popular encryption standard or encryption algorithm. It is widely used f
 ## <span style="color:gold;">Three Security Goals</span>
 
 ---
+
+1. Confidentiality
+2. Integrity
+3. Availability
+
+### 1. Confidentiality
+
+The first goal of Network Security is **Confidentiality**. The function of confidentiality is to protect precious business data from unauthorized persons.
+
+### 2. Integrity
+
+The second goal of Network Security is **Integrity**. Integrity aims at maintaining and assuring the accuracy and consistency of data.
+
+### 3. Availability
+
+The third goal of network security is **Availability**. The function of Availability in Network Security is to make sure that the Data, Network Resources or Network Services are continuously available to the legitimate users, whenever they require it.
