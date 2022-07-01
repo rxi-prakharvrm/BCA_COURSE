@@ -227,7 +227,7 @@ For a number to be a random number, two conditions must be met:
 
 ---
 
-- PGF stands for Pretty Good Privacy which is invented by Phil Zimmermann.
+- PGP stands for Pretty Good Privacy which is invented by Phil Zimmermann.
 - PGP was designed to provide all four aspects of security, i.e, privacy, integrity, authentication, and non-repudiation in the sending of email.
 - PGP uses a digital signature to privide integrity, authentication, and non-repudiation.
 - PGP uses a combination of secret key encryption and public key encryption to privide privacy.
