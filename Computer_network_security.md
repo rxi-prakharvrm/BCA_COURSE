@@ -4,17 +4,17 @@
 
 ---
 
-1. Access Control is a privacy feature that enables authorised users to access the system, in contrast it disallows the unauthorised persons.
+- Access Control is a privacy feature that enables authorised users to access the system, in contrast it disallows the unauthorised persons.
 
-2. _For example, when a user wants to access the **ATM** Machine, he enters the pin and then the system check for the user authentication if the user is authenticated, machine allows him to withdraw the money else it doesn't allow the user to do so._
+- _For example, when a user wants to access the **ATM** Machine, he enters the pin and then the system check for the user authentication if the user is authenticated, machine allows him to withdraw the money else it doesn't allow the user to do so._
 
 ## <span style="color:gold;"> Data Confidentiality </span>
 
 ---
 
-1. Data Confidentiality is roughly equivalent to _data privacy_.
+- Data Confidentiality is roughly equivalent to _data privacy_.
 
-2. Data Confidentiality is a measure undertaken to ensure that the data doesn't go into the wrong hands.
+- Data Confidentiality is a measure undertaken to ensure that the data doesn't go into the wrong hands.
 
 ## <span style="color:gold;"> Substitution Cipher </span>
 
@@ -22,27 +22,27 @@
 
 In substitution cipher, each letter of the plain text is replaced by another letter, number or symbol i.e.
 
-1. Cipher is a substitution cipher in which each letter in the alphabet is replaced or substituted by another alphabet that is three position forward.
+- Cipher is a substitution cipher in which each letter in the alphabet is replaced or substituted by another alphabet that is three position forward.
 
    a -> d, b -> e and so on.
 
    **Formula:**
 
-   - C = E(P) = (P+3) mod 26
-   - P = D(C) = (C-3) mod 26
+  - C = E(P) = (P+3) mod 26
+  - P = D(C) = (C-3) mod 26
 
-2. This cipher is also called as **shift transformation**.
-3. This is very easy to break.
+- This cipher is also called as **shift transformation**.
+- This is very easy to break.
 
 ## <span style="color:gold;"> Transposition Cipher </span>
 
 ---
 
-1. Transposition cipher is different from substitution cipher as it encrypt and decrypt data by performing some sort of permutations.
+- Transposition cipher is different from substitution cipher as it encrypt and decrypt data by performing some sort of permutations.
 
-2. In transposition cipher, the letters of the plain text are just transposed to create different permutation of cipher text.
+- In transposition cipher, the letters of the plain text are just transposed to create different permutation of cipher text.
 
-3. For Example:
+- For Example:
 
 | Plain Text                           | Cipher Text                   |
 | ------------------------------------ | ----------------------------- |
@@ -115,6 +115,7 @@ In substitution cipher, each letter of the plain text is replaced by another let
 | 4. Number of rounds depend on the key length: 10(128-bits), 12(192-bits) or 14(256-bits). | 4. DES involves 16 rounds of identical operations.                                                                                                                                                          |
 | 5. AES is more secure than the DES cipher and is the de facto world standard.             | 5. DES can be broken easily as it has known vulnerabilities. 3DES(Triple DES) is a variation of DES which is secure than the usual DES as it uses three keys of 56-bits instead of only one key of 56-bits. |
 | 6. AES can encrypt 128 bits of plaintext.                                                 | 6. DES can encrypt 64-bits of plaintext.                                                                                                                                                                    |
+| 7. The rounds in AES are: Byte Substitution, Shift Row, Mix Column and Key Addition       | 7. The rounds in DES are: Expansion, XOR operation with round key, Substitution and Permutation.                                                                                                            |
 
 ## <span style="color:gold;">RSA (Rivest Shamir Adleman)</span>
 
@@ -134,9 +135,9 @@ It is a popular encryption standard or encryption algorithm. It is widely used f
 
 ---
 
-1. The security of an internetwork or a local network is called **Internetwork Security**.
+- The security of an internetwork or a local network is called **Internetwork Security**.
 
-2. Internetwork security is implemented to control the confidentiality, integrity, and availability of your information by any means.
+- Internetwork security is implemented to control the confidentiality, integrity, and availability of your information by any means.
 
 ![Internetwork_Security_Image](https://img.brainkart.com/imagebk9/pfebZo6.jpg)
 
@@ -172,42 +173,70 @@ Avalanche effect is when a slight change in input reflects a significant change 
 
 For a number to be a random number, two conditions must be met:
 
-1. The values are uniformly distributed over a defined interval or set, and
-2. It is impossible to predict future values based on past or present ones.
+- The values are uniformly distributed over a defined interval or set, and
+- It is impossible to predict future values based on past or present ones.
 
 ## <span style="color:gold;">Difference between Confusion and Diffusion</span>
 
 ---
 
-| Confusion                                                                            | Diffusion                                                    |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| Confusion                                                                             | Diffusion                                                    |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | 1. Confusion is a cryptographic technique which is used to create faint cipher texts. | 1. While diffusion is used to create cryptic plain texts.    |
-| 2. This technique is posiible through substitution algorithm.                        | 2. While it is possible through transportation algorithm.    |
-| 3. In Confusion, vagueness is increased in resultant.                                | 3. While in diffusion, redundancy is increased in resultant. |
-| 4. Both stream cipher and block cipher uses confusion.                               | 4. Only block cipher uses diffusion.                         |
+| 2. This technique is posiible through substitution algorithm.                         | 2. While it is possible through transportation algorithm.    |
+| 3. In Confusion, vagueness is increased in resultant.                                 | 3. While in diffusion, redundancy is increased in resultant. |
+| 4. Both stream cipher and block cipher uses confusion.                                | 4. Only block cipher uses diffusion.                         |
 
 ## <span style="color:gold;">Kerberos</span>
 
 ---
 
-1. Kerberos is the name of a computer network authentication protocol, which allows individuals communicating over a non-secure network to prove their identity to one another in a secure manner.
+- Kerberos is the name of a computer network authentication protocol, which allows individuals communicating over a non-secure network to prove their identity to one another in a secure manner.
 
-2. Its designers aimed primarily at a client-server model, and it provides mutual authentication both the user and the server varify each other's identity.
+- Its designers aimed primarily at a client-server model, and it provides mutual authentication both the user and the server varify each other's identity.
 
-3. Kerberos protocol messages are protected against eavesdropping and replay attacks.
+- Kerberos protocol messages are protected against eavesdropping and replay attacks.
 
-4. Kerberos builds on symmetric key cryptography and requires a trusted third party.
+- Kerberos builds on symmetric key cryptography and requires a trusted third party.
 
 ### How Kerberos works?
 
-  1. User login and request services on the host. Thus user requests for ticket-granting service.
+1. User login and request services on the host. Thus user requests for ticket-granting service.
 
-  2. Authentication Server verifies user's access right using database and then gives ticket-granting-ticket and session key. Results are encrypted using the password of the user.
+2. Authentication Server verifies user's access right using database and then gives ticket-granting-ticket and session key. Results are encrypted using the password of the user.
 
-  3. The decryption of the message is done using the password then send the ticket to Ticket Granting Server. The Ticket contains authenticators like usernames and network addresses.
+3. The decryption of the message is done using the password then send the ticket to Ticket Granting Server. The Ticket contains authenticators like usernames and network addresses.
 
-  4. Ticket Granting Server decrypts the ticket sent by User and authenticator verifies the request then creates the ticket for requesting services from the server.
+4. Ticket Granting Server decrypts the ticket sent by User and authenticator verifies the request then creates the ticket for requesting services from the server.
 
-  5. The user sends the Ticket and Authenticator to the Server.
+5. The user sends the Ticket and Authenticator to the Server.
 
-  6. The server verifies the Ticket and authenticators then generate access to the service. After this User can access the services.
+6. The server verifies the Ticket and authenticators then generate access to the service. After this User can access the services.
+
+### Limitations of Kerberos
+
+1. It doesn't work well in a timeshare environment.
+
+2. Requires an always-on Kerberos server.
+
+3. Stores all passwords and encrypted with a single key.
+
+4. Assumes workstations are secure.
+
+## <span style="color:gold;">Pretty Good Privacy</span>
+
+---
+
+- PGF stands for Pretty Good Privacy which is invented by Phil Zimmermann.
+- PGP was designed to provide all four aspects of security, i.e, privacy, integrity, authentication, and non-repudiation in the sending of email.
+- PGP uses a digital signature to privide integrity, authentication, and non-repudiation.
+- PGP uses a combination of secret key encryption and public key encryption to privide privacy.
+- PGP is an open source and freely available software package for email security.
+- PGP privides authentication through the use of Digital Signature.
+- It provides confidentiality through the use of symmetric block encryption.
+- It provides compression by using the ZIP algorithm, and EMAIL compatibility using the radix-64 encoding scheme.
+- The e-mail message is hashed by using hashing function to create a digest.
+- The digest is then encrypted to form a signed digest by using the sender's private key, and then signed digest is added to original email message.
+- The original message and signed digest are encrypted by using a one-time secret key created by the sender.
+- The secret key is encrypted by using a receiver's public key.
+- Both the encrypted secret key and the encrypted combination of message and digest are sent together.
