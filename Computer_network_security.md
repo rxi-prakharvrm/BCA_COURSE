@@ -159,3 +159,55 @@ The second goal of Network Security is **Integrity**. Integrity aims at maintain
 ### 3. Availability
 
 The third goal of network security is **Availability**. The function of Availability in Network Security is to make sure that the Data, Network Resources or Network Services are continuously available to the legitimate users, whenever they require it.
+
+## <span style="color:gold;">Avalanche Effect</span>
+
+---
+
+Avalanche effect is when a slight change in input reflects a significant change in the output.
+
+## <span style="color:gold;">Random Numbers</span>
+
+---
+
+For a number to be a random number, two conditions must be met:
+
+1. The values are uniformly distributed over a defined interval or set, and
+2. It is impossible to predict future values based on past or present ones.
+
+## <span style="color:gold;">Difference between Confusion and Diffusion</span>
+
+---
+
+| Confusion                                                                            | Diffusion                                                    |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1. Confusion is a cryptographic technique which is used to create faint cipher texts. | 1. While diffusion is used to create cryptic plain texts.    |
+| 2. This technique is posiible through substitution algorithm.                        | 2. While it is possible through transportation algorithm.    |
+| 3. In Confusion, vagueness is increased in resultant.                                | 3. While in diffusion, redundancy is increased in resultant. |
+| 4. Both stream cipher and block cipher uses confusion.                               | 4. Only block cipher uses diffusion.                         |
+
+## <span style="color:gold;">Kerberos</span>
+
+---
+
+1. Kerberos is the name of a computer network authentication protocol, which allows individuals communicating over a non-secure network to prove their identity to one another in a secure manner.
+
+2. Its designers aimed primarily at a client-server model, and it provides mutual authentication both the user and the server varify each other's identity.
+
+3. Kerberos protocol messages are protected against eavesdropping and replay attacks.
+
+4. Kerberos builds on symmetric key cryptography and requires a trusted third party.
+
+### How Kerberos works?
+
+  1. User login and request services on the host. Thus user requests for ticket-granting service.
+
+  2. Authentication Server verifies user's access right using database and then gives ticket-granting-ticket and session key. Results are encrypted using the password of the user.
+
+  3. The decryption of the message is done using the password then send the ticket to Ticket Granting Server. The Ticket contains authenticators like usernames and network addresses.
+
+  4. Ticket Granting Server decrypts the ticket sent by User and authenticator verifies the request then creates the ticket for requesting services from the server.
+
+  5. The user sends the Ticket and Authenticator to the Server.
+
+  6. The server verifies the Ticket and authenticators then generate access to the service. After this User can access the services.
