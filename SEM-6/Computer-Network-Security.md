@@ -241,3 +241,12 @@ For a number to be a random number, two conditions must be met:
 - The original message and signed digest are encrypted by using a one-time secret key created by the sender.
 - The secret key is encrypted by using a receiver's public key.
 - Both the encrypted secret key and the encrypted combination of message and digest are sent together.
+
+## <span style="color:gold;">Transport Layer Security</span>
+
+---
+
+- Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network.
+- The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use in securing HTTPS remains the most publicly visible.
+- It is a standard based on SSL 3.0.
+- Not interoperable with SSL.
