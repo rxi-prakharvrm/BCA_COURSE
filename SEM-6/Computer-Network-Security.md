@@ -250,3 +250,17 @@ For a number to be a random number, two conditions must be met:
 - The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use in securing HTTPS remains the most publicly visible.
 - It is a standard based on SSL 3.0.
 - Not interoperable with SSL.
+
+## <span style="color:gold;">SET</span>
+
+---
+
+- It is an open encryption and security specification which is maily designed to provide secure environment for credit card transactions on the internet.
+- A number of companies were involved in developing its initial specification, including IBM, Microsoft.
+- SET is not itself a payment system. But it is a set of security protocols and formats that enables users to employ the existing credit card payment infrastructure on an open network, such as internet, in a secure fashion.
+
+SET privides three services:
+
+1. It provides a secure communications channel among all parties involved in a transaction.
+2. Provides trust by the use of X-509 v3 digital certificates.
+3. Ensures privacy because the information is only available to parties in a transaction when and where necessary.
