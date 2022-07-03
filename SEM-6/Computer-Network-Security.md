@@ -265,3 +265,22 @@ SET privides three services:
 1. It provides a secure communications channel among all parties involved in a transaction.
 2. Provides trust by the use of X-509 v3 digital certificates.
 3. Ensures privacy because the information is only available to parties in a transaction when and where necessary.
+
+## <span style="color:gold;">Diffie Hellman Algorithm</span>
+
+---
+
+The Diffie-Hellman algorithm is being used to establish a shared secret that can be used for secret communications while exchanging data over a public network using the elliptic curve to generate points and get the secret key using the parameters. In other words, Diffie-Hellman algorithm is used to share secret keys over a netwoks so that the message between the sender and the reciever can be securely transmitted.
+
+### Steps to Diffie-Hellman Algorithm
+
+| Alice                                                         | Bob                                                           |
+| ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Public Keys available = P, G and Private Key selected is = a  | Public Keys available = P, G and Private Key selected = b     |
+| Key generated => x = G^a mod P                                | Key generated => y = G^b mod P                                |
+| Exchange of generated keys takes place                        |                                                               |
+| Key received = y and Generated Secret Key => k(a) = y^a mod P | Key received = x and Generated Secret key => k(b) = x^b mod P |
+
+- Algebraically, it can be shown that k(a) = k(b)
+- Users now have a symmetric secret key to encrypt messages
+
