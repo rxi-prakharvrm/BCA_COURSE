@@ -1,4 +1,3 @@
-
 # Computer Network Security Notes
 
 ## <span style="color:gold;"> Access Control </span>
@@ -228,7 +227,7 @@ For a number to be a random number, two conditions must be met:
 
 ---
 
-- PGP stands for Pretty Good Privacy which is invented by Phil Zimmermann.
+- PGF stands for Pretty Good Privacy which is invented by Phil Zimmermann.
 - PGP was designed to provide all four aspects of security, i.e, privacy, integrity, authentication, and non-repudiation in the sending of email.
 - PGP uses a digital signature to privide integrity, authentication, and non-repudiation.
 - PGP uses a combination of secret key encryption and public key encryption to privide privacy.
@@ -284,3 +283,28 @@ The Diffie-Hellman algorithm is being used to establish a shared secret that can
 - Algebraically, it can be shown that k(a) = k(b)
 - Users now have a symmetric secret key to encrypt messages
 
+## <span style="color:gold;">Four different stages used by AES</span>
+
+---
+
+1. First stage involves sub bytes or sub situation of bytes. A non-linear **byte substitution** occurs for each byte of the block.
+2. Second stage involves **shift rows**. The transformation of bytes happens cyclically within the block.
+3. **Mix - columns** is the third stage of the algorithm where the transformation groups 4-bytes together forming a 4-term polynomial and this is multiplied by a fixed polynomial and this is multiplied by a fixed polynomial mod (x^4 + 1).
+4. Last stage of the AES algorithm is the **add round key**. Transformation adds the round key with the block of data.
+
+## <span style="color:gold;">What is S/MIME?</span>
+
+---
+
+### POP3:
+
+Post Office Protocol version 3 (POP3) is a standard main protocol used to receive emails from a remote server to a local email client. POP3 allows you to download email messages on your local computer and read them even when you are offline.
+
+POP3 works on two ports:
+
+1. Port 110: non encrypted port
+2. Port 995: encrypted and secure port
+
+### IMAP:
+
+Internet Message Access Protocol (IMAP) is a mail protocol used for accessing email on a remote web server from a local client.
