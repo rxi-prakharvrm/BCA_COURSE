@@ -228,7 +228,7 @@ For a number to be a random number, two conditions must be met:
 
 ---
 
-- PGF stands for Pretty Good Privacy which is invented by Phil Zimmermann.
+- PGP stands for Pretty Good Privacy which is invented by Phil Zimmermann.
 - PGP was designed to provide all four aspects of security, i.e, privacy, integrity, authentication, and non-repudiation in the sending of email.
 - PGP uses a digital signature to privide integrity, authentication, and non-repudiation.
 - PGP uses a combination of secret key encryption and public key encryption to privide privacy.
@@ -255,6 +255,7 @@ For a number to be a random number, two conditions must be met:
 
 ---
 
+- It stands for Secure Electronic Transaction.
 - It is an open encryption and security specification which is maily designed to provide secure environment for credit card transactions on the internet.
 - A number of companies were involved in developing its initial specification, including IBM, Microsoft.
 - SET is not itself a payment system. But it is a set of security protocols and formats that enables users to employ the existing credit card payment infrastructure on an open network, such as internet, in a secure fashion.
